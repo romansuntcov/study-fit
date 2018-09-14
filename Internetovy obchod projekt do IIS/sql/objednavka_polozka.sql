@@ -1,0 +1,8 @@
+CREATE TABLE ObjednavkaPolozka
+(
+	id_polozka	INTEGER PRIMARY KEY AUTO_INCREMENT,
+	id_obj 		INTEGER NOT NULL,
+	id_zakaz	INTEGER NOT NULL,
+	id_sort		INTEGER NOT NULL,
+	pocet		INTEGER NOT NULL DEFAULT 0
+);

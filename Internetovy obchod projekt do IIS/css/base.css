@@ -1,0 +1,19 @@
+div#header {
+	width: 850px;
+	margin: 0 auto;
+}
+
+div#header > img {
+	width: 850px;
+	height: 225px;
+}
+
+div#body {
+	width: 850px;
+	margin: 0 auto;
+}
+
+div#footer {
+	width: 850px;
+	margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+CREATE TABLE SortimentPolozka
+(
+	id 		INT     		PRIMARY KEY AUTO_INCREMENT,
+	id_typ	INT UNSIGNED	NOT NULL,
+	val1	TEXT,
+	val2	VARCHAR(15),
+	val3	VARCHAR(15),
+	val4	VARCHAR(15),
+	val5	VARCHAR(15)
+);

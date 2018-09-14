@@ -1,0 +1,10 @@
+ALTER TABLE Platba ADD CONSTRAINT FK_objednavka FOREIGN KEY (id_objednavka) REFERENCES Objednavka(id_objednavka_orig);
+ALTER TABLE Objednavka ADD CONSTRAINT FK_zakaz FOREIGN KEY (id_zakaz) REFERENCES Zakaznik(id_zakaz);
+ALTER TABLE Objednavka ADD CONSTRAINT FK_objed_zam FOREIGN KEY (id_zam) REFERENCES Zamestnanec(id_zam);
+ALTER TABLE Objednavka ADD CONSTRAINT FK_kuryr FOREIGN KEY (id_kuryr) REFERENCES Kuryr(id_kuryr);
+ALTER TABLE Recenze ADD CONSTRAINT FK_rec_zakaz FOREIGN KEY (id_zakaz) REFERENCES Zakaznik(id_zakaz);
+ALTER TABLE Kosik ADD CONSTRAINT FK_kosik_zakaz FOREIGN KEY (id_zakaz) REFERENCES Zakaznik(id_zakaz);
+ALTER TABLE Sortiment ADD CONSTRAINT FK_sort_kosik FOREIGN KEY (id_kosik) REFERENCES Kosik(id_kosik);
+ALTER TABLE Sortiment ADD CONSTRAINT FK_sort_dodav FOREIGN KEY (id_dodav) REFERENCES Dodavatel(id_dodav);
+ALTER TABLE Skicaky ADD CONSTRAINT FK_skicak_sort FOREIGN KEY (id_skicak_sort) REFERENCES Sortiment(id_skicak_sort);
+ALTER TABLE Pastelky ADD CONSTRAINT FK_pastelky_sort FOREIGN KEY (id_pastel_sort) REFERENCES Sortiment(id_pastel_sort);
