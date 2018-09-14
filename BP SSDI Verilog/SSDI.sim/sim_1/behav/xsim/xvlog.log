@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/ACC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ACC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/MPX2A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MPX2A
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/MPX2B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MPX2B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/MPX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MPX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/MUL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/RV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/SUM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/XOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module XOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/old/SSDI/SSDI.srcs/sim_1/new/controller_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller_sim

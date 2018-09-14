@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SSDI.srcs/sources_1/new/ACC.v" \
+"../../../../SSDI.srcs/sources_1/new/MPX2A.v" \
+"../../../../SSDI.srcs/sources_1/new/MPX2B.v" \
+"../../../../SSDI.srcs/sources_1/new/MPX4.v" \
+"../../../../SSDI.srcs/sources_1/new/MUL.v" \
+"../../../../SSDI.srcs/sources_1/new/RV.v" \
+"../../../../SSDI.srcs/sources_1/new/SUM.v" \
+"../../../../SSDI.srcs/sources_1/new/XOR.v" \
+"../../../../SSDI.srcs/sources_1/new/controller.v" \
+"../../../../SSDI.srcs/sim_1/new/controller_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
